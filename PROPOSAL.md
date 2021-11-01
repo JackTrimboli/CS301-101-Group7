@@ -23,7 +23,7 @@
 <h4>What data will you use? If you are collecting new data, how will you do it?</h4>
 <p>
    The data we will be using is provided from kaggle. The dataset includes passenger information which consists of; name, age, gender, socio-economic class, etc.
-   https://www.history.com/topics/early-20th-century-us/titanic 
+   https://www.kaggle.com/c/titanic
 </p>
 <h4>What method or algorithm are you proposing? If there are existing implementations, will you use them and how? How do you plan to improve or modify such implementations? You don’t have to have an exact answer at this point, but you should have a general sense of how you will approach the problem you are working on.</h4>
 <p>
