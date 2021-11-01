@@ -10,6 +10,7 @@
 <h4>What reading will you examine to provide context and background?</h4>
 <p>
   <ul>
+    These are the articles we are referencing for our project:
     <li>https://www.history.com/topics/early-20th-century-us/titanic  </li>
     <li>https://ieeexplore.ieee.org/abstract/document/8229835?casa_token=1F3wQQh2tm8AAAAA:n3eLpYnlybpr98XuxAKF10wSoUOLgshk0m86a2FCkbCjMjZUKrbBI8cmt2we3wXTBswzHvUgqwo
 </li> <li>https://books.google.com/bookshl=en&lr=&id=dfkiBcUMXw8C&oi=fnd&pg=PA15&dq=research+papers+about+titanic+passengers&ots=w9s0GCIxPV&sig=WIoDpQuwqTggMmDnMM38Rq1UUtE#v=onepage&q=research%20papers%20about%20titanic%20passengers&f=false
@@ -17,7 +18,7 @@
     <li>https://www.jstor.org/stable/3348839?seq=1#metadata_info_tab_contents</li>
     </ul>
 
-  These are the articles we are referencing for our project because we think that they will be helpful to prioritize the factors that are needed for our model. In     general we want to only have factors/characteristics that will only have a big impact on our data.
+   We decided to use these sources because we think that they will be helpful to prioritize the factors that are needed for our model. In general we want to only have factors/characteristics that will only have a big impact on our data.
 </p>
 <h4>What data will you use? If you are collecting new data, how will you do it?</h4>
 <p>
