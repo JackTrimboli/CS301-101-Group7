@@ -5,31 +5,27 @@
 
 <h4>What is the problem that you will be investigating? Why is it interesting?</h4>
 <p>
-  For this project, we will be investigating the relationship between the attributes of passengers and their likelihood of survival during a disaster. We found this  topic to be interesting because it provides insight on how personal characteristics can affect an individual's resilience
+  For our projects, we are presented with the issue of needing to forecast the total amount of products sold in every shop in a provided test set. We will do this using a dataset which contains daily historical sales data. We found this topic interesting because it provided us with an opportunity to create a robust model that can handle changes in our data, such as the list of shops and products. 
 </p>
 <h4>What reading will you examine to provide context and background?</h4>
 <p>
-  These are the articles we are referencing for our project:
+ In order to provide a clear end goal to this project, we will be reading the documentation of other similar projects, as well as comparing their data and results to our own. Additionally, we will reference the discussion and code tabs from Kaggle, to provide insight on how others approached this issue. Lastly, we found an article that utilizes linear regression for similar sales forecasting issues. We will use this as inspiration when creating our own diagram. This is the current list of URLs which we plan to use:
   <ul>
-    <li>https://www.history.com/topics/early-20th-century-us/titanic  </li>
-    <li>https://ieeexplore.ieee.org/abstract/document/8229835?casa_token=1F3wQQh2tm8AAAAA:n3eLpYnlybpr98XuxAKF10wSoUOLgshk0m86a2FCkbCjMjZUKrbBI8cmt2we3wXTBswzHvUgqwo
-</li> <li>https://books.google.com/bookshl=en&lr=&id=dfkiBcUMXw8C&oi=fnd&pg=PA15&dq=research+papers+about+titanic+passengers&ots=w9s0GCIxPV&sig=WIoDpQuwqTggMmDnMM38Rq1UUtE#v=onepage&q=research%20papers%20about%20titanic%20passengers&f=false
- </li>
-    <li>https://www.jstor.org/stable/3348839?seq=1#metadata_info_tab_contents</li>
-    </ul>
-
-   We decided to use these sources because we think that they will be helpful to prioritize the factors that are needed for our model. In general we want to only have factors/characteristics that will only have a big impact on our data.
+    <li>https://www.academia.edu/43317073/An_Effective_Approach_for_Sales_Forecasting</li>
+    <li>https://www.kaggle.com/c/competitive-data-science-predict-future-sales/discussion</li>
+    <li>https://www.kaggle.com/c/store-sales-time-series-forecasting</li>
+    <li>https://www.kaggle.com/c/competitive-data-science-predict-future-sales/code</li>
+  </ul>
 </p>
 <h4>What data will you use? If you are collecting new data, how will you do it?</h4>
 <p>
-   The data we will be using is provided from kaggle. The dataset includes passenger information which consists of; name, age, gender, socio-economic class, etc.
-   https://www.kaggle.com/c/titanic
+   We will be using data provided by kaggle. The data provided includes a training set and a test set. The training set is from January 2013 to October 2015. The test set is from November 2015. Also provided is some background information about the items, products, item categories, and shop categories.
 </p>
 <h4>What method or algorithm are you proposing? If there are existing implementations, will you use them and how? How do you plan to improve or modify such implementations? You don’t have to have an exact answer at this point, but you should have a general sense of how you will approach the problem you are working on.</h4>
 <p>
-  We plan on applying a logistic regression to multiple different characteristics of passengers. By doing this, we can find the relationship between probability of death and multiple different attributes such as age, gender, and social status. There are other implementations of our planned algorithm which we currently plan to improve upon using different visualization methods. This will allow us to view the data in a different context and make new comparisons.
+  The current algorithm we plan to apply to our dataset utilizes linear regression. There is an existing similar implementation which we have provided a link to in response to question 2. We plan to modify this implementation to fit our specific data, as well as address the primary issue we are presented with, which is allowing our algorithm to function properly despite changes in attributes such as the list of shops or products.
 </p>
 <h4>How will you evaluate your results? Qualitatively, what kind of results do you expect (e.g. plots or figures)? Quantitatively, what kind of analysis will you use to evaluate and/or compare your results (e.g. what performance metrics or statistical tests)?</h4>
 <p>
-  We plan to evaluate our data by determining the statistical probability that a passenger dies based on a given characteristic. We will then provide a logistic regression graph to visualize the result. Then, we will apply our algorithm to a test data set and observe how similar our results are to the actual result of the disaster.
+  Our finished product will consist of two results: a linear regression which reflects our dataset, and a number which represents the total amount of products sold in every shop. We will also analyze how different variables impact the various possible outcomes. Lastly, we will compare our results with the projects and readings we previously mentioned in questions 2 and 4. 
 </p>
