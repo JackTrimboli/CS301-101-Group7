@@ -5,7 +5,7 @@
 
 <h4>1. What is the problem that you will be investigating? Why is it interesting?</h4>
 <p>
-  For our projects, we are presented with the issue of needing to forecast the total amount of products sold in every shop in a provided test set. We will do this using a dataset which contains daily historical sales data. We found this topic interesting because it provided us with an opportunity to create a robust model that can handle changes in our data, such as the list of shops and products. 
+  For our project, we are presented with the issue of needing to forecast the total amount of products sold in every shop in a provided test set. We will do this using a dataset which contains daily historical sales data. We found this topic interesting because it provided us with an opportunity to create a robust model that can handle changes in our data, such as the list of shops and products. 
 </p>
 <h4>2. What reading will you examine to provide context and background?</h4>
 <p>
