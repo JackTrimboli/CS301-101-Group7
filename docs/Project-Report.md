@@ -64,7 +64,7 @@ count mapping to its corresponding shop ID. This initial result represented the 
 
 <p>After arriving at this result, we knew we needed to find the total items sold for each shop, per month. By summing the items counts for each store. Below is the result we obtained.
 The next thing we did was predict the item count per month for each item:</p> 
-<img src="https://github.com/JackTrimboli/CS301-101-Group7/blob/main/docs/Res/img2.png" width="300" align= "center"/>
+<img src="https://github.com/JackTrimboli/CS301-101-Group7/blob/main/docs/Res/img2.png" width="500" align= "center"/>
 
 
 <p>Once again we find the total items sold for each item per month regardless of the shop they were sold from. We then get the result below:</p>
