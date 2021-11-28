@@ -48,7 +48,7 @@
   </td>
 </tr>
 </table>
-  <cite><i><small>*Above shows the two datasets and the features that each one initially holds*</small></i></cite>
+ <p><cite><i><small>*Above shows the two datasets and the features that each one initially holds*</small></i></cite></p>
 <p>In order to make the test data comparable to the training data, we had to pre-processing on the test data. First we tried taking some information from the training dataset and adding it to the test dataset based on the matching IDs of each item. However this resulted in more issues and inaccurate results. To solve this issue we split the ‘sales_train.csv’ file into two parts. The first part consisting of 80% of the data will be used for training, and the second part 20% was used to test the model. This was done with the permission of Professor Pantelis. This process was necessary because when making our  model, we need to allocate our training data into X and Y training sets where X represents the important features and Y represents the values that should be predicted. By splitting the ‘sales_train.csv’ file we are able to guarantee that the training data and test data will be formatted the same and we will have the exact Y values to compare our predictions to. Another bit of preprocessing we did was change the item_cnt_day value to item_cnt_month since we are trying to predict item sales per month instead of daily sales, it was necessary to change this value.</p>
 
 <h2><b>Methods:</b></h2>
