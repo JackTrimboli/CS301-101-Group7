@@ -75,6 +75,8 @@ The next thing we did was predict the item count per month for each item:</p>
 
 
 <br /> 
+
+
 <p align="center"><b>Works Cited</b></p>
 Bakshi, Chaya. “Random Forest Regression - Level Up Coding.” Medium, 9 June 2020, levelup.gitconnected.com/random-forest-regression-209c0f354c84.
 “Sklearn.Ensemble.RandomForestClassifier.” Scikit-Learn, scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html. Accessed 28 Nov. 2021.
