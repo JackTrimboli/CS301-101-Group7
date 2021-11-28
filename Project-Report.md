@@ -2,9 +2,8 @@
 <p>Dr. Pantelis</p>
 <p>CS 301-101</p>
 <p>November 28th, 2021</p>
-<h1><b>CS-301 Course Project: Predicting Future Sales</b><h1>
-	
-	<h3><b>Abstract <b></h3>
+<h1><b>CS-301 Course Project: Predicting Future Sales</b></h1>
+<h3><b>Abstract <b></h3>
 		
 <p>Our problem was a prediction or forecasting problem. Our idea was taken from kaggle, and it deals with forecasting future sales based on previous sales data. Specifically we are given daily sales data for different shops and products, some information included is the product price and how many units were sold per day. The data runs from January 2013 to October 2015. We are then asked to predict the monthly item count or the number of units sold per month. Our approach was to use the given data and have two different models/predictors. The thing we are interested in finding is the number of items sold per month. We find this in two different ways. First we find the total number of products sold per month for each store regardless of the product. Second we find the total number of products sold per month for each product regardless of the shop. These two values are the key results. The final thing we do is get a predicted y value or y hat and compare it to the actual y value. The dataset in kaggle does not have y values to compare with predicted y values, in order to solve this we split the training dataset given into 80/20. This way we can use 80% of the data to train the model and 20% of the data to test our model. Now we have a table consisting of actual y values, and a y hat or predicted y value.</p>
 
