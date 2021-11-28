@@ -62,12 +62,15 @@
 count mapping to its corresponding shop ID. This initial result represented the predicted sales for each individual item, in each store:</p>
 <img src="https://github.com/JackTrimboli/CS301-101-Group7/blob/main/docs/Res/img1.png" width="300" align="center"/>
 
-<p>After arriving at this result, we knew we needed to find the total items sold for each shop, per month. By summing the items counts for each store. Below is the result we obtained.
-The next thing we did was predict the item count per month for each item:</p> 
+<p>After arriving at this result, we knew we needed to find the total items sold for each shop, per month. By summing the items counts for each store. Below is the result we obtained:</p>
 <img src="https://github.com/JackTrimboli/CS301-101-Group7/blob/main/docs/Res/img2.png" width="500" align= "center"/>
+
+<p>The next thing we did was predict the item count per month for each item:</p> 
+<img src="https://github.com/JackTrimboli/CS301-101-Group7/blob/main/docs/Res/img3.png" width="500" align= "center"/>
 
 
 <p>Once again we find the total items sold for each item per month regardless of the shop they were sold from. We then get the result below:</p>
+<img src="https://github.com/JackTrimboli/CS301-101-Group7/blob/main/docs/Res/img4.png" width="500" align= "center"/>
 
 </p>The last thing we did is use the Random Forest Regressor to make a prediction about the number of items sold per month while taking into account the specific item and store. Before we were just looking at one of these factors now we are looking at both. This is the result we wish to obtain, and is our predicted y value or y hat. We then compare this value to the actual y value which is given in the sales_train data and since we split the sales_train data 80/20 into training and test data respectively it makes it very easy to compare our predictions to the ground truths.</p>
 
