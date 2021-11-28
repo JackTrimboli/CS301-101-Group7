@@ -60,6 +60,7 @@
 <h2><b>Experiments:</b></h2>
 	<p>After we finished preprocessing our data, we were ready to start creating our model. As stated in the ‘methods’ section. We achieved this in python code using a library called sklearn. This gave us access to the Random Forest Regressor, which performs the legwork of actually implementing the algorithm in code. This allowed us to easily feed 80% of our sales_train data to the model, effectively training it to accurately predict the items sold each month. Using our test data, we performed trials to verify that the regression model was working properly. After confirming this, we stored the results in a Dataframe in key value pairs, with each predicted item
 count mapping to its corresponding shop ID. This initial result represented the predicted sales for each individual item, in each store:</p>
+<img src="./res/img1"/>
 
 <p>After arriving at this result, we knew we needed to find the total items sold for each shop, per month. By summing the items counts for each store. Below is the result we obtained.
 The next thing we did was predict the item count per month for each item:</p> 
