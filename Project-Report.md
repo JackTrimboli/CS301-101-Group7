@@ -8,27 +8,42 @@
 <p>Our problem was a prediction or forecasting problem. Our idea was taken from kaggle, and it deals with forecasting future sales based on previous sales data. Specifically we are given daily sales data for different shops and products, some information included is the product price and how many units were sold per day. The data runs from January 2013 to October 2015. We are then asked to predict the monthly item count or the number of units sold per month. Our approach was to use the given data and have two different models/predictors. The thing we are interested in finding is the number of items sold per month. We find this in two different ways. First we find the total number of products sold per month for each store regardless of the product. Second we find the total number of products sold per month for each product regardless of the shop. These two values are the key results. The final thing we do is get a predicted y value or y hat and compare it to the actual y value. The dataset in kaggle does not have y values to compare with predicted y values, in order to solve this we split the training dataset given into 80/20. This way we can use 80% of the data to train the model and 20% of the data to test our model. Now we have a table consisting of actual y values, and a y hat or predicted y value.</p>
 
 
-<h3><b>Introduction:</b></h3>
+<h2><b>Introduction:</b></h2>
 	<p>For our project, we were presented with the issue of needing to forecast the total amount of products sold on a monthly basis for all shops in a provided test set. In summary, we achieved this by using python3 libraries to programmatically prepare our test dataset to match our training dataset. Once complete, we fed our training data to our Random Forest Regression model. This allowed the Random Forest Regressor to form decision trees which it then used to make sales predictions when analyzing our test dataset. As a result, we were able to create a diagram of projected monthly product sales for the test data.</p>
  	<p>This issue is extremely important in today’s society because it impacts both businesses and individual citizens. For businesses, sales forecasting algorithms are crucial for understanding what future profits will look like. This affects important business decisions such as what products a business offers, how much staff that business may need, if layoffs are necessary, and much more. For citizens who are not involved in owning a business, this affects what investments they might make based on what products are projected to sell well. This is becoming more and more relevant as investment apps increase in popularity and more citizens become involved in trading.</p>
-Related Work:
-	One of the benefits of using data from Kaggle was the ability to draw inspiration from individuals who worked with the same data as us. By reading through the discussion pages, we were able to find a wealth of documentation which helped us gain insight on how others decided to manipulate the data we were using. One post entitled ‘Sales Prediction- Regressions and Deep Learning’, written by Pralabh Poudel was particularly helpful. This post helped us better understand what the data actually represented and how to manipulate the data for use in our own research. This ultimately drove our decision to use the Random Forest Regression algorithm. This was because no one else had documented the use of this algorithm for this problem, and we were eager to see the data visualized in a new way.
-	Our reference material was not just limited to Kaggle, however. We found a great resource article on the Random Forest Regression algorithm on gitconnected.com, which gave us more insight on how the algorithm utilizes decision trees to make predictions. Additionally, we used the documentation on SciKit-learn.org to learn more about how to use their open source python libraries to manipulate the data programmatically. This was especially helpful because it removed much of the legwork required to apply the algorithm to our dataset.
-Data:
-At the start of our experiment we had a set of files which we received from Kaggle containing a test and training dataset, as well as other chunks of raw data containing information such as product and shop information. Our training data came from a file named ‘sales_train.csv’ and was used to train the model we created. Specifically, this file contained daily historical data from January 2013 to October 2015. One issue we initially ran into was that the training dataset contained more fields than the test dataset:
-Test
-Sales_Train
+	
+<h2><b>Related Work:</b></h2>
+	<p>One of the benefits of using data from Kaggle was the ability to draw inspiration from individuals who worked with the same data as us. By reading through the discussion pages, we were able to find a wealth of documentation which helped us gain insight on how others decided to manipulate the data we were using. One post entitled ‘Sales Prediction- Regressions and Deep Learning’, written by Pralabh Poudel was particularly helpful. This post helped us better understand what the data actually represented and how to manipulate the data for use in our own research. This ultimately drove our decision to use the Random Forest Regression algorithm. This was because no one else had documented the use of this algorithm for this problem, and we were eager to see the data visualized in a new way.</p>
+	<p>Our reference material was not just limited to Kaggle, however. We found a great resource article on the Random Forest Regression algorithm on gitconnected.com, which gave us more insight on how the algorithm utilizes decision trees to make predictions. Additionally, we used the documentation on SciKit-learn.org to learn more about how to use their open source python libraries to manipulate the data programmatically. This was especially helpful because it removed much of the legwork required to apply the algorithm to our dataset.</p>
+	
+<h2><b>Data:</b></h2>
+
+<p>At the start of our experiment we had a set of files which we received from Kaggle containing a test and training dataset, as well as other chunks of raw data containing information such as product and shop information. Our training data came from a file named ‘sales_train.csv’ and was used to train the model we created. Specifically, this file contained daily historical data from January 2013 to October 2015. One issue we initially ran into was that the training dataset contained more fields than the test dataset:</p>
+<table>
+<tr>
+  <th>
+	  Test
+  </th>
+  <th>
+	  Sales_Train
+  </th>
+</tr>
+<tr>
+  <td>
 ID
 Shop_ID
 Item_ID
-
-
-Date, 
+  </td>
+  <td>
+Date 
 Date_Block_Num
 Shop_ID
 Item_ID
 Item_Price
 Item_Cnt_Day
+  </td>
+</tr>
+</table>
 
 *Above shows the two datasets and the features that each one initially holds*
 In order to make the test data comparable to the training data, we had to pre-processing on the test data. First we tried taking some information from the training dataset and adding it to the test dataset based on the matching IDs of each item. However this resulted in more issues and inaccurate results. To solve this issue we split the ‘sales_train.csv’ file into two parts. The first part consisting of 80% of the data will be used for training, and the second part 20% was used to test the model. This was done with the permission of Professor Pantelis. This process was necessary because when making our  model, we need to allocate our training data into X and Y training sets where X represents the important features and Y represents the values that should be predicted. By splitting the ‘sales_train.csv’ file we are able to guarantee that the training data and test data will be formatted the same and we will have the exact Y values to compare our predictions to. Another bit of preprocessing we did was change the item_cnt_day value to item_cnt_month since we are trying to predict item sales per month instead of daily sales, it was necessary to change this value.
