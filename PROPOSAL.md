@@ -23,7 +23,7 @@
 </p>
 <h4>4. What method or algorithm are you proposing? If there are existing implementations, will you use them and how? How do you plan to improve or modify such implementations? You don’t have to have an exact answer at this point, but you should have a general sense of how you will approach the problem you are working on.</h4>
 <p>
-  The current algorithm we plan to apply to our dataset utilizes linear regression. There is an existing similar implementation which we have provided a link to in response to question 2. We plan to modify this implementation to fit our specific data, as well as address the primary issue we are presented with, which is allowing our algorithm to function properly despite changes in attributes such as the list of shops or products.
+  The current algorithm we plan to apply to our dataset utilizes random forest regression. There is an existing similar implementation which we have provided a link to in response to question 2. We plan to modify this implementation to fit our specific data, as well as address the primary issue we are presented with, which is allowing our algorithm to function properly despite changes in attributes such as the list of shops or products.
 </p>
 <h4>5. How will you evaluate your results? Qualitatively, what kind of results do you expect (e.g. plots or figures)? Quantitatively, what kind of analysis will you use to evaluate and/or compare your results (e.g. what performance metrics or statistical tests)?</h4>
 <p>
