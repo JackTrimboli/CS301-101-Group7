@@ -30,17 +30,21 @@
 </tr>
 <tr>
   <td>
-ID
-Shop_ID
-Item_ID
+    <ul>
+      <li>ID</li>
+      <li>Shop_ID</li>
+      <li>Item_ID</li>
+    </ul>
   </td>
   <td>
-Date 
-Date_Block_Num
-Shop_ID
-Item_ID
-Item_Price
-Item_Cnt_Day
+    <ul>
+      <li>Date</li>
+      <li>Date_Block_Num</li>
+      <li>Shop_ID</li>
+      <li>Item_ID</li>
+      <li>Item_Price</li>
+      <li>Item_Cnt_Day</li>
+    </ul>
   </td>
 </tr>
 </table>
