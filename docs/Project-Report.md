@@ -73,6 +73,8 @@ count mapping to its corresponding shop ID. This initial result represented the 
 <img src="https://github.com/JackTrimboli/CS301-101-Group7/blob/main/docs/Res/img4.png" width="500" align= "center"/>
 
 </p>The last thing we did is use the Random Forest Regressor to make a prediction about the number of items sold per month while taking into account the specific item and store. Before we were just looking at one of these factors now we are looking at both. This is the result we wish to obtain, and is our predicted y value or y hat. We then compare this value to the actual y value which is given in the sales_train data and since we split the sales_train data 80/20 into training and test data respectively it makes it very easy to compare our predictions to the ground truths.</p>
+<img src="https://github.com/JackTrimboli/CS301-101-Group7/blob/main/docs/Res/img5.png" width="500" align= "center"/>
+
 
 
 <h2><b>Conclusion:</b></h2> 
