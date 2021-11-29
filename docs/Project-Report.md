@@ -4,6 +4,9 @@
 <p>CS 301-101</p>
 <p>November 28th, 2021</p>
 <h1><b>CS-301 Course Project: Predicting Future Sales</b></h1>
+<h4><a href="https://www.youtube.com/watch?v=DdDv1JUjPcE">Video Presentation Link</a>
+<h4><a href="https://colab.research.google.com/drive/1MPDH9xI4NoBybuRofFlF04n_F_2AxKlz?usp=sharing">Google Colab Link</a>
+	
 <h2><b>Abstract:</b></h2>
 	</head>
 		
